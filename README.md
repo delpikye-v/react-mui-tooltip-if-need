@@ -11,7 +11,7 @@
 
 #### Description
 
-React MUI. Show display tooltip if need.
+React MUI (v.5). Show tooltip if need. (truncate)
 
 ---
 ### Usage
@@ -34,18 +34,18 @@ import { MuiTooltipIfNeed } from "react-mui-tooltip-ifz";
 
 ```js
 <MuiTooltipIfNeed title="abdc">
-    {/* <div>fdsfs</div> */}
-    <Button
-      variant="contained"
-      className="abcd"
-      style={{
-        width: 200 // => use should set from css
-      }}
-      onClick={() => setSize(400)}
-      onDoubleClick={() => setSize(200)}
-    >
-      Hellofds fdsfsfsfdsdf fdsf s
-    </Button>
+  {/* <div>fdsfs</div> */}
+  <Button
+    variant="contained"
+    className="abcd"
+    style={{
+      width: 200 // => use should set from css
+    }}
+    onClick={() => setSize(400)}
+    onDoubleClick={() => setSize(200)}
+  >
+    Hellofds fdsfsfsfdsdf fdsf s
+  </Button>
 </MuiTooltipIfNeed>
 ```
 
@@ -56,12 +56,14 @@ import { MuiTooltipIfNeed } from "react-mui-tooltip-ifz";
 
 #### props
 
-<b>TooltipProps</b>: from <b>@mui/material</b>
+<b>TooltipProps</b>: from <b>react: @mui/material</b>
 
 
 | props               | type                          | description                                  |
 |---------------------|-------------------------------|----------------------------------------------|
-| ifNeed              | boolean                       | default: true| show tooltip when size over
+| always              | boolean                       | default: false| show when text over          |
+| boostrapCss         | boolean                       | default: true | arrow and color like boostrap|
+
 <br />
 
 #### Note

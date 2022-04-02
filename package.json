@@ -1,13 +1,13 @@
 {
   "name": "react-mui-tooltip-ifz",
-  "version": "1.0.0-dk",
+  "version": "1.0.1-dp",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "React Mui-Tooltip If need",
+  "description": "React Mui-Tooltip if need (truncate)",
   "scripts": {
     "clean": "rimraf ./build",
     "build": "rollup -c",
@@ -23,13 +23,16 @@
     "url": "git+https://github.com/delpikye-v/react-mui-tooltip-if-need.git"
   },
   "keywords": [
-    "React",
-    "Component",
-    "Library",
-    "Typescript",
-    "Tooltip",
-    "Tooltip-IfNeed",
-    "Mui-Tooltip"
+    "react",
+    "component",
+    "library",
+    "typescript",
+    "tooltip",
+    "tooltip-if-need",
+    "material-tooltip",
+    "mui-tooltip",
+    "react-material-tooltip",
+    "react-mui-tooltip"
   ],
   "author": "Delpi.Kye",
   "license": "MIT",
