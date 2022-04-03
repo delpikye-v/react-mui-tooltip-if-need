@@ -39,7 +39,7 @@ import { MuiTooltipIfNeed } from "react-mui-tooltip-ifz";
     variant="contained"
     className="abcd"
     style={{
-      width: 200 // => use should set from css
+      width: 200 // => you should update it from css class
     }}
     onClick={() => setSize(400)}
     onDoubleClick={() => setSize(200)}
@@ -59,10 +59,10 @@ import { MuiTooltipIfNeed } from "react-mui-tooltip-ifz";
 <b>TooltipProps</b>: from <b>react: @mui/material</b>
 
 
-| props               | type                          | description                                  |
-|---------------------|-------------------------------|----------------------------------------------|
-| always              | boolean                       | default: false| show when text over          |
-| boostrapCss         | boolean                       | default: true | arrow and color like boostrap|
+| props               | type                      | description                                      |
+|---------------------|---------------------------|--------------------------------------------------|
+| always              | boolean                   | default: false:  show if text is overflow        |
+| bootstrapCss        | boolean                   | default: true: arrow and color like bootstrapCss |
 
 <br />
 

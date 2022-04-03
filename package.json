@@ -1,6 +1,6 @@
 {
   "name": "react-mui-tooltip-ifz",
-  "version": "1.0.1-dp",
+  "version": "1.0.2",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
@@ -28,9 +28,11 @@
     "library",
     "typescript",
     "tooltip",
+    "truncate",
     "tooltip-if-need",
     "material-tooltip",
     "mui-tooltip",
+    "react-tooltip",
     "react-material-tooltip",
     "react-mui-tooltip"
   ],
